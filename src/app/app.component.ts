@@ -6,9 +6,15 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  boutons: Array<any> = [
-    {title: "home", "route":"/home", icon:"house"},
-    {title: "products", "route":"/products", icon:"house"},
-    {title: "home", "route":"/new-product", icon:"house"}
+
+  public currentAction: any;
+  public setCurrentAction(value: any) {
+    this.currentAction = value;
+  }
+
+  actions: Array<any> = [
+    {title: "Home", "route":"/home", icon:"house"},
+    {title: "Products", "route":"/products", icon:"search"},
+    {title: "New Product", "route":"/new-product", icon:"safe"}
   ]
 }
