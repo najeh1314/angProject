@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'wepApp';
+  boutons: Array<any> = [
+    {title: "home", "route":"/home", icon:"house"},
+    {title: "products", "route":"/products", icon:"house"},
+    {title: "home", "route":"/new-product", icon:"house"}
+  ]
 }
