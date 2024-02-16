@@ -13,8 +13,8 @@ export class AppComponent {
   }
 
   actions: Array<any> = [
-    {title: "Home", "route":"/home", icon:"house"},
-    {title: "Products", "route":"/products", icon:"search"},
-    {title: "New Product", "route":"/new-product", icon:"plus"}
+    {title: "Home", route:"/home", icon:"house"},
+    {title: "Products", route:"/products", icon:"search"},
+    {title: "New Product", route:"/new-product", icon:"plus"}
   ]
 }

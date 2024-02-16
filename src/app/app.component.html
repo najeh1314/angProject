@@ -1,5 +1,5 @@
 <nav class="p-3">
-
+        <!-- 
         <ul class="nav nav-pills">
         <li>
             <button routerLink="app/home" class="btn btn-outline-success ms-1">
@@ -21,7 +21,7 @@
             </button>
         </li>
     </ul>
-        <!-- 
+
             Ce code ci dessus est remplacer par le code en bas
                              .--.
                              |  |
@@ -29,7 +29,6 @@
                              \  /
                               \/
     -->
-
   <ul class="nav nav-pills">
       <li *ngFor="let action of actions">
         <button
@@ -37,7 +36,7 @@
             routerLink="{{action.route}}"
             [class]="action==currentAction 
                         ?'btn btn-success ms-1': 'btn btn-outline-success ms-1'"
-        >                
+        >
             {{action.title}}
             <i class="bi bi-{{action.icon}}"></i>
         </button>
