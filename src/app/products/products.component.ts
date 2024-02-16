@@ -32,7 +32,7 @@ export class ProductsComponent implements OnInit{
  
   public check(product: any) {
     this.http.patch<any>(`http://localhost:8089/products/${product.id}`,
-    {checked: !product.checked}).subscribe({
+    {checked:!product.checked}).subscribe({
       next: updatedProduct => {
         product.checked=!product.checked;
       }
