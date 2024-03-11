@@ -1,9 +1,9 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "Computer",
-      "price": 450,
+      "id": "3",
+      "name": "Phone",
+      "price": 250,
       "checked": false
     },
     {
@@ -13,9 +13,9 @@
       "checked": true
     },
     {
-      "id": "3",
-      "name": "Phone",
-      "price": 250,
+      "id": "1",
+      "name": "Computer",
+      "price": 450,
       "checked": false
     },
     {
